@@ -1,1 +1,19 @@
+@font-face {
+    font-family: Aquatico;
+    src: url("./components/assets/font/Aquatico-Regular.ttf");
+  }
+  @font-face {
+    font-family: Copperplate;
+    src: url("./components/assets/font/Copperplate.ttf");
+  }
+body{
+    padding:0;
+    Margin:0;
+    background-image:url(./components/assets/images/voilier\ .jpg) ;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    position:fixed;
+    z-index: -1;
 
+    
+}
