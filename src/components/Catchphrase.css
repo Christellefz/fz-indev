@@ -1,0 +1,87 @@
+.catchphrase-container{
+    display: flex;
+    align-content:center !important;
+    flex-flow:column nowrap;
+    color: rgb(255, 255, 255);
+    font-family: Aquatico;
+    font-size:1.5vw;
+    padding: 10vh ;
+    text-align: center;
+    overflow: visible;
+    position: relative;
+    top: 50px;
+    
+}
+.catchphrase-first{
+text-shadow:rgb(21, 154, 231) 1px 0 10px;
+position: relative;
+left:-10vw;
+}
+.catchphrase-second{
+    position: relative;
+    left :2vw;
+    text-shadow:rgb(21, 154, 231) 1px 0 10px;
+}
+.catchphrase-third{
+    text-shadow:rgb(21, 154, 231) 1px 0 10px;
+    
+}
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.8s both;
+	        animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.8s both;
+}
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }  
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  text-decoration: none;
+}
+.btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-grad {
+     margin: 60px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     font-family: copperplate;
+     font-size: 0.8em;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  

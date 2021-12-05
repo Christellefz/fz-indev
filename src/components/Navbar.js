@@ -13,27 +13,26 @@ const Navbar = () => {
         <span className='nav-contact-item'>Mail: contact@fzindev.fr</span>
       </div>
       <div className='nav-core'>
-        <img className='logo' alt='logo de fz indev' src={Logo} />
+            <Link exact to='/' className='link'>
+              <img className='logo' alt='logo de fz indev' src={Logo} />
+            </Link>
         <div className='navAndSocial'>
           <nav className='navItems'>
             <ul className='navlist'>
               <Link exact to='/' className='link'>
                 <li className='navli'>Accueil</li>
               </Link>
+              <Link to='/' className='link'>
+                <li className='navli'>Services</li>
+              </Link>
+              <Link to='/tarifs' className='link'>
+                <li className='navli'>Tarifs</li>
+              </Link>
               <Link to='/about' className='link'>
                 <li className='navli'>A propos</li>
               </Link>
-              <Link to='/ProBackground' className='link'>
-                <li className='navli'>Parcours</li>
-              </Link>
-              <Link to='/skills' className='link'>
-                <li className='navli'>Compétences</li>
-              </Link>
               <Link to='/contact' className='link'>
-                <li className='navli'>Form/Map</li>
-              </Link>
-              <Link to='/don' className='link'>
-                <li className='navli'>Payment Form</li>
+                <li className='navli'>Contact</li>
               </Link>
             </ul>
           </nav>

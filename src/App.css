@@ -7,13 +7,15 @@
     src: url("./components/assets/font/Copperplate.ttf");
   }
 body{
-    padding:0;
-    Margin:0;
-    background-image:url(./components/assets/images/voilier\ .jpg) ;
-    background-repeat: no-repeat;
-    background-size:100vw 100vh;
-    position:fixed;
-    z-index: -1;
-
-    
+    padding:0 ;
+    Margin:0 ;
+}
+.landingView{
+  height:100vh;
+  width:100vw;
+  background-image:url(./components/assets/images/voilier.jpg) ;
+  background-size:100vw 100vh;
+  background-repeat:no-repeat;
+  z-index: -1;
+  height:100vh;
 }
