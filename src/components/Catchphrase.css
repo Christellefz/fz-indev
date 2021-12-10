@@ -56,24 +56,17 @@ left:-10vw;
       opacity: 1;
     }
   }  
-.contact-button {
-  display: flex;
-  justify-content: center;
-  margin:auto;
-  text-decoration: none;
-}
+
 .btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
 .btn-grad {
      margin: 60px;
      padding: 15px 45px;
-     text-align: center;
      text-transform: uppercase;
      transition: 0.5s;
      background-size: 200% auto;
      color: white;            
      box-shadow: 0 0 20px #eee;
      border-radius: 10px;
-     display: block;
      font-family: copperplate;
      font-size: 0.8em;
    }
@@ -83,5 +76,8 @@ left:-10vw;
      color: #fff;
      text-decoration: none;
    }
-  
+   .contact-button{
+   display:flex;
+   justify-content: center;
+   }
   

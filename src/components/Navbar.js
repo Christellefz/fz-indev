@@ -2,10 +2,20 @@ import './Navbar.css'
 
 import { FaFacebookF, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
-import { Link } from 'react-router-dom'
 import Logo from './assets/images/Logo.png'
+import { links } from '../data'
 
 const Navbar = () => {
+  const handleClick = e => {
+    e.preventDefault()
+    const target = e.target.getAttribute('href')
+    const location = document.querySelector(target).offsetTop
+
+    window.scrollTo({
+      left: 0,
+      top: location - 64
+    })
+  }
   return (
     <div className='nav-container'>
       <div className='nav-contact'>
@@ -13,28 +23,22 @@ const Navbar = () => {
         <span className='nav-contact-item'>Mail: contact@fzindev.fr</span>
       </div>
       <div className='nav-core'>
-            <Link exact to='/' className='link'>
-              <img className='logo' alt='logo de fz indev' src={Logo} />
-            </Link>
+        <img className='logo' alt='logo de fz indev' src={Logo} />
+
         <div className='navAndSocial'>
           <nav className='navItems'>
-            <ul className='navlist'>
-              <Link exact to='/' className='link'>
-                <li className='navli'>Accueil</li>
-              </Link>
-              <Link to='/' className='link'>
-                <li className='navli'>Services</li>
-              </Link>
-              <Link to='/tarifs' className='link'>
-                <li className='navli'>Tarifs</li>
-              </Link>
-              <Link to='/about' className='link'>
-                <li className='navli'>A propos</li>
-              </Link>
-              <Link to='/contact' className='link'>
-                <li className='navli'>Contact</li>
-              </Link>
-            </ul>
+            {links.map(link => {
+              return (
+                <a
+                  href={link.url}
+                  key={link.id}
+                  onClick={handleClick}
+                  className='link'
+                >
+                  {link.text}
+                </a>
+              )
+            })}
           </nav>
           <div className='social-Icons-block'>
             <a

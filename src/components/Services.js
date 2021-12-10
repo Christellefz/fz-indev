@@ -28,6 +28,7 @@ const Services = () => {
               <li className='list-item'>Interface d&apos;administration</li>
               <li className='list-item'>Animations Dynamiques</li>
               <li className='list-item'>Integration web</li>
+              <li className='list-item'>Fonctionalités</li>
             </ul>
           </article>
         </div>
