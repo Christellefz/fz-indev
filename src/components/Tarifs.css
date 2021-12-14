@@ -1,3 +1,10 @@
+.basic-container{
+    width:100vw;
+    Display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .basic{
     background: white;
     border-radius: 4px;
@@ -5,8 +12,9 @@
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; 
-    margin:20px;
-    padding-bottom:5px;
+    margin-bottom:35px;
+    max-width:500px;
+   
 }
 .basic:hover{
     -webkit-transform: translate(20px, -10px);
@@ -21,28 +29,32 @@
     line-height: 1.4;
 }
 .section-offres{
-    width: 55%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    min-width:300px;
+    
 }
 .basic>h2 {
     text-decoration: underline overline rgb(1,1,87);
 }
 .Tarifs-container{
+    width: 100vw;
     color:rgb(1, 1, 87);
     font-family:Copperplate;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     background: linear-gradient( 109.6deg,  rgba(38, 165, 165, 0.8) 11.2%, rgba(1, 8, 77, 0.8) 92.5% );
 }
 .Tarifs-title{
     font-size: 3rem;
     color: white;
     text-shadow: rgb(2, 4, 110) 1px 0 10px;
+    text-align: center;
 }
 .second-comment{
     color: white;

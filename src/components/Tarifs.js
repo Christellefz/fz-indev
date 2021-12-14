@@ -17,7 +17,7 @@ const Tarifs = () => {
         La réponse vous vous en doutez est: Cela dépend de vos objectifs!
       </p>
       <section className='section-offres'>
-        <div>
+        <div className='basic-container'>
           {DataOffre.map(offre => {
             return (
               <div className='basic' key={offre.title}>

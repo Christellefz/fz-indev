@@ -4,4 +4,13 @@ code {
 }
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding:0;
+  width: 100vw;
+
+}
+body {
+  margin: 0;
+  padding:0;
+  width :100vw;
 }

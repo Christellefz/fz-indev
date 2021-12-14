@@ -47,7 +47,7 @@ const Navbar = () => {
               target='blank'
               className='socialMediaIcon'
             >
-              <FaFacebookF size={28} />
+              <FaFacebookF size={24} />
             </a>
             <a
               href='https://www.facebook.com/christelle.fernandez.73/'
@@ -55,7 +55,7 @@ const Navbar = () => {
               target='blank'
               className='socialMediaIcon'
             >
-              <FaInstagram size={28} />
+              <FaInstagram size={24} />
             </a>
             <a
               href='https://www.facebook.com/christelle.fernandez.73/'
@@ -63,7 +63,7 @@ const Navbar = () => {
               target='blank'
               className='socialMediaIcon'
             >
-              <FaLinkedin size={28} />
+              <FaLinkedin size={24} />
             </a>
           </div>
         </div>
