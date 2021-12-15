@@ -1,0 +1,32 @@
+@media screen and (max-width:800px){
+    .navItems{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        position:fixed;
+        left:0;
+        bottom:0;
+        height: 100vh;
+        padding:2rem;
+        background-color:midnightblue;
+    }
+    .links{
+        display:block;
+        padding:2rem;
+        font-size: 5vw;
+    }
+    .navbar-burger{
+        color:black
+    }
+    .navbar-bar,
+    .navbar-bar::before,
+    .navbar-bar::after{
+        display:block;
+        width:40px;
+        height:3px;
+        position:relative;
+        border-radius: 4px;
+        background-color:aliceblue;
+
+    }
+}
