@@ -27,7 +27,7 @@ padding-left:10vw;
 }
 .tracking-in-contract {
 	-webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.8s both;
-	        animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.8s both;
+	animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.8s both;
 }
 @-webkit-keyframes tracking-in-contract {
     0% {
@@ -41,8 +41,8 @@ padding-left:10vw;
       letter-spacing: normal;
       opacity: 1;
     }
-  }
-  @keyframes tracking-in-contract {
+}
+@keyframes tracking-in-contract {
     0% {
       letter-spacing: 1em;
       opacity: 0;
@@ -54,29 +54,32 @@ padding-left:10vw;
       letter-spacing: normal;
       opacity: 1;
     }
-  }  
+}  
 
 .btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
 .btn-grad {
-     margin: 60px;
-     padding: 15px 45px;
-     text-transform: uppercase;
-     transition: 0.5s;
-     background-size: 200% auto;
-     color: white;            
-     box-shadow: 0 0 20px #eee;
-     border-radius: 10px;
-     font-family: copperplate;
-     font-size: 0.8em;
-   }
+      margin: 60px;
+      padding: 15px 45px;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      font-family: copperplate;
+      font-size: 0.8em;
+}
 
-   .btn-grad:hover {
+.btn-grad:hover {
      background-position: right center; /* change the direction of the change here */
-     color: #fff;
-     text-decoration: none;
-   }
-   .contact-button{
-   display:flex;
-   justify-content: center;
-   }
+    color: #fff;
+    text-decoration: none;
+}
+.contact-button{
+    position: relative;
+    bottom:-120px;
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+}
   

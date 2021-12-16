@@ -1,10 +1,10 @@
 import './App.css'
 
-import About from './components/Tarifs'
+import About from './components/About'
 import Catchphrase from './components/Catchphrase'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
-import Tarifs from './components/About'
+import Tarifs from './components/Tarifs'
 
 const App = () => {
   return (

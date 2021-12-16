@@ -25,7 +25,7 @@ const Tarifs = () => {
                 <h3>Objectif: </h3>
                 <p>{offre.objectif}</p>
                 <h3>Contenu: </h3>
-                <p>{offre.contenu}</p>
+                <p className='tarif-description'>{offre.contenu}</p>
                 <h3>Tarif*: {offre.tarif}</h3>
                 <Link to='/'>
                   <button className='btn-grad '>Me Contacter</button>
