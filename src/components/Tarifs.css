@@ -10,13 +10,13 @@
     flex-direction: column;
     background: white;
     border-radius: 4px;
-    box-shadow: 0px 20px 50px #c3cbdb;
+    box-shadow: 0px 10px 15px #c3cbdb;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; 
     margin-bottom:35px;
     max-width:500px;
-   
+    
 }
 .basic:hover{
     -webkit-transform: translate(20px, -10px);
@@ -33,16 +33,16 @@
 .section-offres{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    /* justify-content: space-between; */
     min-width:300px;
-    
 }
 .basic>h2 {
     text-decoration: underline overline rgb(1,1,87);
 }
 .Tarifs-container{
+    background-color: rgb(4, 4, 53);;
     width: 100vw;
     color:rgb(1, 1, 87);
     font-family:Copperplate;
@@ -50,18 +50,23 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient( 109.6deg,  rgba(38, 165, 165, 0.8) 11.2%, rgba(1, 8, 77, 0.8) 92.5% );
 }
 .Tarifs-title{
     font-size: 3rem;
     color: white;
     text-shadow: rgb(2, 4, 110) 1px 0 10px;
     text-align: center;
+    font-family: Aquatico;
 }
 .second-comment{
     color: white;
+    padding-bottom: 10vh;
 }
 .tarif-description{
     min-height:283px;
     padding: 0 10px;
+}
+h4{
+    color : white;
+   
 }

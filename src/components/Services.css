@@ -12,6 +12,7 @@
 }
 .services-main-title{
     font-size: 3rem;
+    font-family: Aquatico;
 }
 .services-section{
     display: flex;
@@ -37,4 +38,9 @@
 }
 .list-item{
     font-size :1.5em;
+}
+.illustration{
+    width :100vw;
+    height:200px;
+    opacity :0.25.
 }

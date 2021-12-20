@@ -2,6 +2,9 @@ import './Services.css'
 
 import { FaDharmachakra, FaDraftingCompass } from 'react-icons/fa'
 
+import { Parallax } from 'react-parallax'
+import responsive from './assets/images/responsive.jpg'
+
 const Services = () => {
   return (
     <div className='services-container'>
@@ -50,6 +53,15 @@ const Services = () => {
           </article>
         </div>
       </section>
+
+      <Parallax
+        blur={{ min: -100, max: 100 }}
+        bgImage={responsive}
+        bgImageAlt="bureau avec deux écrans d'ordinateur"
+        strength={800}
+      >
+        <div style={{ height: '25vh', width: '100vw' }} />
+      </Parallax>
     </div>
   )
 }

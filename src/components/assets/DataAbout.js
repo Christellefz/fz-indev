@@ -1,14 +1,14 @@
 export const DataAbout = [
   {
-    Title: 'Qui suis-je?',
-    text1: ` Issue d'école de commerce et de management, j'ai construit ma carrière
-    autour du management et de l'entreprenariat. Particulièrement interessée
+    Title1: 'Qui suis-je?',
+    text1: ` Issue d'école de commerce et de management, j'ai construit ma carrière autour du management et de l'entreprenariat.
+    Particulièrement interessée
     par les nouvelles technologies je me suis formée au sein de la Wild Code
-    School(membre des Grandes Ecoles du Numérique). Dans mes créations je
-    combine mes compétences en développement web, marketing digital, et mes
-    connaissances des problématiques des entrepreneurs. Je peux ainsi vous
-    proposer des solutions adaptées à vos objectifs de communication et vous
-    éviter de couteuses erreurs!`
+    School(membre des Grandes Ecoles du Numérique).
+    Dans mes créations je combine mes compétences en développement web, marketing digital, et mes
+    connaissances des problématiques des entrepreneurs. 
+    Je peux ainsi vous proposer des solutions adaptées à vos objectifs de communication et vous
+    éviter de coûteuses erreurs!`
   },
   {
     Title: 'Pourquoi choisir Fz-InDev?',
@@ -19,10 +19,11 @@ export const DataAbout = [
     title2: `Avoir un site évolutif!`,
     p2: ` Vous pouvez commencer avec le minimum(ou pas!): votre site 
     pourra grandir avec les besoins de votre activité ou de votre budget`,
-    title3: `Je travail en équipe!  Graphistes, Créateur de contenu vidéo, Photographe, 
+    title3: `Je travail en équipe!`,
+    p3: `  Graphistes, Créateur de contenu vidéo, Photographe, 
     je mets mon réseau à votre disposition`,
     title4: `Possibilité d'échelonner les paiements! `,
-    p3: `Un site est un investissement qui peut se révéler onéreux. 
+    p4: `Un site est un investissement qui peut se révéler onéreux. 
     Pouvoir réaliser un paiement en plusieurs fois vous permettra de sécuriser votre trésorerie`
   },
   {

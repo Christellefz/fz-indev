@@ -17,14 +17,8 @@
     color :White;
     flex-wrap:wrap;
 }
-.nav-core{
-    display: flex;
-    justify-content: space-around;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8) 35%, rgba(55, 202, 231, 0.5) 100%);
-    flex-wrap: wrap;
 
-}
+
 .navlist{
     display: flex;
     flex-direction: row;
@@ -32,36 +26,33 @@
     text-shadow: rgb(1, 7, 10) 1px 0 10px;
     flex-wrap: wrap;
     margin:0;
- 
 }
 
 .link{
     margin:10px ;
-    font-family: Copperplate;
+    font-family: Aquatico;
     color :white;
     text-decoration: none;
-    font-size: 1.5em ;
-    
+    font-size: 1em ;
 }
 .logo{
     width:70px;
-    margin-left:1vw;
-    margin-right: 1vw;
+    padding-left:1vw;
+    padding-right: 1vw;
     align-items: center;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(4, 4, 53) 99%);
 }
 .socialMediaIcon{
     color :white;
-    margin:20px;
-    
+    margin:20px; 
 }
 .social-Icons-block{
     flex-wrap: wrap;
     align-self: center;
 }
-.navAndSocial{
-    display:flex;
-    flex-wrap: nowrap;
-}
+
 .navbar-burger{
     width : 40px;
     height: 40px;
@@ -71,10 +62,15 @@
     display:none;
 }
 .navItems{
+    width : 100vw;
     display:flex;
     align-self:center;
     margin:0;
     align-items:center;
+    justify-content: space-evenly;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8) 35%, rgba(55, 202, 231, 0.5) 100%);
+    flex-wrap: wrap;
 }
 .link:hover{
     cursor:pointer;

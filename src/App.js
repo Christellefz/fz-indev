@@ -2,6 +2,7 @@ import './App.css'
 
 import About from './components/About'
 import Catchphrase from './components/Catchphrase'
+import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Tarifs from './components/Tarifs'
@@ -21,6 +22,9 @@ const App = () => {
       </section>
       <section id='about'>
         <About />
+      </section>
+      <section id='contact'>
+        <Contact />
       </section>
     </div>
   )

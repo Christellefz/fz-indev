@@ -7,10 +7,9 @@
     src: url("./components/assets/font/Copperplate.ttf");
   }
 body{
-  box-sizing: border-box;
     padding:0 ;
     Margin:0 ;
-    width:100vw;
+
 }
 .landingView{
   background-image:url(./components/assets/images/voilier.jpg) ;
