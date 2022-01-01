@@ -4,12 +4,12 @@ export const DataOffre = [
     objectif: 'Assurer une présence minimum et indispensable en ligne',
     contenu: [
       '1 à 5 pages',
-      'adaptable pc tabletteet téléphone',
+      'adaptable pc tablette et téléphone',
       'hébergement -1an',
       'Boîte mail pro',
       'nom de domaine -selon disponibilité'
     ],
-    pour: `Les personnes sachant exactement ce qu'elles veullent,
+    pour: `Les personnes sachant exactement ce qu'elles veulent,
      ayant un budget serré avec peu de temps à consacrer à leur site`,
     tarif: '1 500€'
   },

@@ -1,17 +1,21 @@
 import './Footer.css'
 
+import { useEffect, useState } from 'react'
+
 import Modal from './Modal'
 import Sphere from './assets/images/Sphere.png'
-import { useState } from 'react'
 
 const Footer = () => {
   const [openModal, setOpenModal] = useState(false)
   const [id, setId] = useState('')
-  const handleModalContent = e => {
-    e.preventDefault()
-    setId(e.target.id)
-    console.log(id)
+
+  const handleModalContent = async function (e) {
+    setId(e.target.getAttribute('id'))
   }
+  useEffect(() => {
+    id ? setOpenModal(true) : setOpenModal(false), console.log(id)
+  }, [id])
+
   return (
     <footer className='footer-container'>
       <div className='legal'>
@@ -22,28 +26,39 @@ const Footer = () => {
         />
         <ul className='footer-link'>
           <li
-            id='cgv'
-            onClick={() => {
-              setOpenModal(true)
-              handleModalContent
+            id='cgu'
+            onClick={e => {
+              handleModalContent(e)
             }}
           >
-            CGV
-          </li>
-          <li id='cgu' onClick={() => setOpenModal(true)}>
             CGU
           </li>
-          <li id='ml' onClick={() => setOpenModal(true)}>
+          <li
+            id='ml'
+            onClick={e => {
+              handleModalContent(e)
+            }}
+          >
             Mentions Légales
           </li>
-          <li id='poli' onClick={() => setOpenModal(true)}>
+          <li
+            id='poli'
+            onClick={e => {
+              handleModalContent(e)
+            }}
+          >
             politique de protection des données à caractère personnel
           </li>
-          <li id='cookie' onClick={() => setOpenModal(true)}>
+          <li
+            id='cookie'
+            onClick={e => {
+              handleModalContent(e)
+            }}
+          >
             Politique de gestion des cookies
           </li>
         </ul>
-        {openModal && <Modal id={id} closeModal={setOpenModal} />}
+        {openModal ? <Modal id={id} closeModal={setOpenModal} /> : null}
       </div>
       <div className='credit'>
         Crédit photo: voilier by Flo Dahm, setup by Pixabay , bureau by Josh

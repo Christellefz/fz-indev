@@ -4,9 +4,6 @@ import React, { useState } from 'react'
 
 import Map from './Map.js'
 import emailjs from 'emailjs-com'
-import { init } from 'emailjs-com'
-
-// import Map from '../components/Map'
 
 const Contact = () => {
   const [name, setName] = useState('')

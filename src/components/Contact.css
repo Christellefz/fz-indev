@@ -52,6 +52,7 @@ textarea{
 .telMail{ 
   display: flex; 
   flex-direction: column;
+  align-content: center;
   box-sizing: border-box;
   width: 50%;
   font-weight: bold;
