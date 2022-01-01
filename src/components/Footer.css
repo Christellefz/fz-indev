@@ -8,6 +8,7 @@
     color:white;
     font-family: Copperplate;
     min-height:100px;
+  
 
 }
 .legal{ 
@@ -20,8 +21,7 @@
 }
 .footer-logo{
     width:80px;
-    padding-left:1vw;
-    padding-right: 1vw;
+
 }
 .footer-link>*{
     padding-left: 1.5vw;

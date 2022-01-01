@@ -43,7 +43,7 @@ const Navbar = () => {
         })}
         <div className='social-Icons-block '>
           <a
-            href='https://www.facebook.com/christelle.fernandez.73/'
+            href='https://www.facebook.com/Christellefz'
             title='facebook fz-indev'
             target='blank'
             className='socialMediaIcon'
@@ -51,7 +51,7 @@ const Navbar = () => {
             <FaFacebookF size={24} />
           </a>
           <a
-            href='https://www.facebook.com/christelle.fernandez.73/'
+            href='https://www.instagram.com/christelle_lagawyte/?hl=fr'
             title='facebook fz-indev'
             target='blank'
             className='socialMediaIcon '
@@ -59,7 +59,7 @@ const Navbar = () => {
             <FaInstagram size={24} />
           </a>
           <a
-            href='https://www.facebook.com/christelle.fernandez.73/'
+            href='https://www.linkedin.com/in/christelle-fernandez-1018a717b/?originalSubdomain=fr'
             title='facebook fz-indev'
             target='blank'
             className='socialMediaIcon '
