@@ -1,0 +1,94 @@
+.basic-container{
+    width:100vw;
+    Display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url('./assets/images/Web.jpg');
+    background-size:100vw 100%;
+    background-repeat:no-repeat;
+    padding-top:50px;
+}
+.basic{
+    display:flex;
+    flex-direction: column;
+    background: rgb(202, 202, 202);
+    border-radius: 4px;
+    box-shadow: 0px 10px 15px #c3cbdb;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+    margin-bottom:35px;
+    max-width:400px;
+    
+}
+.basic:hover{
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+.basic>*{
+    padding-top:0px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.section-offres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    min-width:300px;
+}
+.basic>h2 {
+    text-decoration: underline overline rgb(1,1,87);
+    font-size: 2.1em;
+    padding:1.5rem 0;
+}
+.basic>h3{
+    font-size:2em;
+    padding:1.5rem 0;
+}
+.objectif{
+    min-height:95px;
+}
+.pour{
+    min-height:126px;
+}
+
+.Tarifs-container{
+    background-color: rgb(4, 4, 53);;
+    width: 100vw;
+    color:rgb(1, 1, 87);
+    font-family:Copperplate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Tarifs-title{
+    font-size: 3rem;
+    color: white;
+    text-shadow: rgb(2, 4, 110) 1px 0 10px;
+    text-align: center;
+    font-family: Aquatico;
+    padding-top:30px
+}
+.second-comment{
+    color: white;
+    padding-bottom: 10vh;
+}
+.tarif-description{
+    list-style-type: none;
+    min-height:220px;
+    padding: 0 10px;
+}
+
+h4{
+    color : white;
+    max-width:500px;
+    padding:20px 0;
+}

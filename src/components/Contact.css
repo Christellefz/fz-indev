@@ -1,0 +1,86 @@
+.contactContainer{
+  font-family: copperplate;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items:center;
+  border: 5px solid rgb(2, 3, 80);
+  background-color: rgba(255, 255, 255, 0.739);
+  margin: 5% 15%;
+  margin-bottom: 60px;
+  color: rgb(12, 0, 77)
+}
+.form-content{
+  display:flex;
+  flex-direction:column;
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(6, 7, 82);
+  border-radius: 50px;
+  width:100%;
+}
+
+input {
+  border:none;
+  color:antiquewhite;
+  height: 30px;
+  border-bottom:1px solid  black;
+  margin: 20px;
+  box-shadow: rgb(129, 127, 127) 3px 3px;
+  font-size:15px;
+ 
+}
+textarea{
+  border:none;
+  color:antiquewhite;
+  height: 30px;
+  border-bottom:1px solid  black;
+  margin: 20px;
+  box-shadow: rgb(129, 127, 127) 3px 3px;
+  height:100px;
+  font-size:15px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 50%;
+  padding-top:30px;
+}
+.telMail{ 
+  display: flex; 
+  flex-direction: column;
+  align-content: center;
+  box-sizing: border-box;
+  width: 50%;
+  font-weight: bold;
+  font-size:1.5em
+}
+@media screen and (max-width: 800px) {
+  .contactContainer{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 5% 10%;
+    padding-bottom: 40px;
+  }
+  .telMail{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .telMail>*{
+    padding-bottom:1vh;
+    overflow: hidden;
+  }
+  .contact-form{
+    width: 80vw;
+    font-size: 20px;
+  }
+}
+
+p{
+  text-align: center;
+}
+
