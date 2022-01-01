@@ -2,9 +2,16 @@ import './Tarifs.css'
 
 import { DataOffre } from './assets/DataOffre'
 import { GiOnTarget } from 'react-icons/gi'
-import { Link } from 'react-router-dom'
+import ReactGA from 'react-ga'
 
 const Tarifs = () => {
+  const Clickhandler = () => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'click catchphrase button'
+    })
+  }
+
   return (
     <div className='Tarifs-container'>
       <h1 className='Tarifs-title'>Liste des offres</h1>
@@ -39,7 +46,9 @@ const Tarifs = () => {
                 <p className='pour'>{offre.pour}</p>
                 <h3>Tarif*: {offre.tarif}</h3>
                 <a href='#contact'>
-                  <button className='btn-grad '>Me Contacter</button>
+                  <button className='btn-grad ' onClick={Clickhandler}>
+                    Me Contacter
+                  </button>
                 </a>
               </div>
             )

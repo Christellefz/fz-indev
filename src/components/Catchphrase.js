@@ -1,8 +1,14 @@
 import './Catchphrase.css'
 
-import { Link } from 'react-router-dom'
+import ReactGA from 'react-ga'
 
 const Catchphrase = () => {
+  const Clickhandler = () => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'click catchphrase button'
+    })
+  }
   return (
     <>
       <div className='catchphrase-container'>
@@ -21,7 +27,9 @@ const Catchphrase = () => {
       </div>
       <div className='contact-button'>
         <a href='#contact'>
-          <button className='btn-grad'>Me Contacter</button>
+          <button className='btn-grad' onClick={Clickhandler}>
+            Me Contacter
+          </button>
         </a>
       </div>
     </>
