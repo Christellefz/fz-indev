@@ -1,7 +1,7 @@
 export const DataAbout = [
   {
     Title1: 'Qui suis-je?',
-    text1: ` Issue d'école de commerce et de management, j'ai construit ma carrière autour du management et de l'entreprenariat.
+    text1: ` Issue d'école de commerce et de management, j'ai construit ma carrière autour du management et de l'entrepreneriat.
     Particulièrement interessée
     par les nouvelles technologies je me suis formée au sein de la Wild Code
     School(membre des Grandes Ecoles du Numérique).
@@ -19,8 +19,8 @@ export const DataAbout = [
     title2: `Avoir un site évolutif!`,
     p2: ` Vous pouvez commencer avec le minimum(ou pas!): votre site 
     pourra grandir avec les besoins de votre activité ou de votre budget`,
-    title3: `Je travail en équipe!`,
-    p3: `  Graphistes, Créateur de contenu vidéo, Photographe, 
+    title3: `Je travaille en équipe!`,
+    p3: `  Graphistes, Créateurs de contenu vidéo, Photographes, 
     je mets mon réseau à votre disposition`,
     title4: `Possibilité d'échelonner les paiements! `,
     p4: `Un site est un investissement qui peut se révéler onéreux. 
@@ -36,7 +36,6 @@ export const DataAbout = [
     il est essentiel d'établir une relation de confiance et pour ça 
     quoi de mieux que la transparence! `,
     title3: `Développement`,
-    p3: `Dans les deux sens du terme! Que l'on parle de visibilité ou de compétences, 
-    je mets la relation client au coeur de mon action `
+    p3: `Dans les deux sens du terme! Je développe votre site pour le développement de votre activité(visibilité, notoriété, CA ...) `
   }
 ]

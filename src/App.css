@@ -6,10 +6,9 @@
     font-family: Copperplate;
     src: url("./components/assets/font/Copperplate.ttf");
   }
-body{
-    padding:0 ;
-    Margin:0 ;
-
+*{
+  margin: 0;
+  padding: 0;
 }
 .landingView{
   background-image:url(./components/assets/images/voilier.jpg) ;

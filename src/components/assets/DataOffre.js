@@ -2,37 +2,50 @@ export const DataOffre = [
   {
     title: 'Basic',
     objectif: 'Assurer une présence minimum et indispensable en ligne',
-    contenu: `Création d'un site static 1 à 5 pages selon 
-      vos modèles en responsive. integration de vos contenus. 
-      Hébergement, boîte mail pro et nom de domaine selon
-      disponibilité (1 an).`,
+    contenu: [
+      '1 à 5 pages',
+      'adaptable pc tabletteet téléphone',
+      'hébergement -1an',
+      'Boîte mail pro',
+      'nom de domaine -selon disponibilité'
+    ],
+    pour: `Les personnes sachant exactement ce qu'elles veullent,
+     ayant un budget serré avec peu de temps à consacrer à leur site`,
     tarif: '1 500€'
   },
   {
     title: 'Accompagnement',
     objectif: ` Une vitrine optimisée et une montée en compétence de
        l'entrepreneur`,
-    contenu: ` Création d'un site web static de 5 à 8 pages en responsive avec
-    hébèrgement, boîte mail pro et nom de domaine selon disponibilité
-    (1 an). Etablissement d'un cahier des
-    charges et création de maquettes Accompagnement pour la création de
-    contenu optimisé Integration de vos contenus optimisés pour le SEO 2
-    rdv de validation Google mybusiness.`,
+    contenu: [
+      ' offre basic en 5 à 8 pages +',
+      'création de maquettes',
+      'création du cahier des charges',
+      'accompagnement pour la création de contenu optimisé',
+      '2 rdv de validation',
+      'google MyBusiness'
+    ],
+    pour: `Les personnes ayant besoin de se faire conseiller dans leur choix 
+    pour un ratio impacte/ressource optimisé`,
     tarif: '3 000€'
   },
   {
     title: 'Dynamic',
     objectif: ` Site dynamic inscrit dans une stratégie digitale complète`,
-    contenu: ` Réalisation d'un site sur mesure et administrable(base de
-        donnée + interface administrateur). Accompagnement à la construction
-        d'une stratégie digitale complète.`,
+    contenu: [
+      ' offre accompagnement (pages selon besoin) et administrable (base de données + interface administrateur)',
+      "construction d'une stratégie digitale complète",
+      'création du cahier des charges'
+    ],
+    pour: `Les personnes ayant besoin d'une stratégie complète et d'un site dynamique `,
     tarif: '4 800€'
   },
   {
     title: 'Taux Journalier Moyen',
     objectif: ` Chaque prestation peut-être demandées indépendamment selon vos
     besoins`,
-    contenu: 'à déterminer selon vos choix',
+    contenu: ['à déterminer selon vos choix'],
+    pour: `Les besoins ponctuels: mise à jour, formation, évolution... `,
     tarif: '300€'
   }
 ]

@@ -1,6 +1,7 @@
 import './Tarifs.css'
 
 import { DataOffre } from './assets/DataOffre'
+import { GiOnTarget } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
 
 const Tarifs = () => {
@@ -22,14 +23,24 @@ const Tarifs = () => {
             return (
               <div className='basic' key={offre.title}>
                 <h2>{offre.title}</h2>
-                <h3>Objectif: </h3>
-                <p>{offre.objectif}</p>
+                <h3>
+                  Objectif: <GiOnTarget />
+                </h3>
+                <p className='objectif'>
+                  <strong>{offre.objectif}</strong>
+                </p>
                 <h3>Contenu: </h3>
-                <p className='tarif-description'>{offre.contenu}</p>
+                <ul key={offre.title} className='tarif-description'>
+                  {offre.contenu.map(object => {
+                    return <li key={object[1]}>{object}</li>
+                  })}
+                </ul>
+                <h3>Pour</h3>
+                <p className='pour'>{offre.pour}</p>
                 <h3>Tarif*: {offre.tarif}</h3>
-                <Link to='/'>
+                <a href='#contact'>
                   <button className='btn-grad '>Me Contacter</button>
-                </Link>
+                </a>
               </div>
             )
           })}

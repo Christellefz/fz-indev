@@ -22,7 +22,7 @@ const Navbar = () => {
     })
   }
   return (
-    <div className='nav-container '>
+    <div className={`nav-container ${showLinks ? 'show-nav' : 'hidden-nav'} `}>
       <div className='nav-contact'>
         <span className='nav-contact-item'>Tel: 06 66 36 42 27</span>
         <span className='nav-contact-item'>Mail: contact@fzindev.fr</span>
@@ -34,14 +34,14 @@ const Navbar = () => {
             <a
               href={link.url}
               key={link.id}
-              onClick={handleClick}
+              onClick={(handleClick, handleShowlinks)}
               className='link , slideInDown'
             >
               {link.text}
             </a>
           )
         })}
-        <div className='social-Icons-block'>
+        <div className='social-Icons-block '>
           <a
             href='https://www.facebook.com/christelle.fernandez.73/'
             title='facebook fz-indev'
@@ -54,7 +54,7 @@ const Navbar = () => {
             href='https://www.facebook.com/christelle.fernandez.73/'
             title='facebook fz-indev'
             target='blank'
-            className='socialMediaIcon'
+            className='socialMediaIcon '
           >
             <FaInstagram size={24} />
           </a>
@@ -62,14 +62,14 @@ const Navbar = () => {
             href='https://www.facebook.com/christelle.fernandez.73/'
             title='facebook fz-indev'
             target='blank'
-            className='socialMediaIcon'
+            className='socialMediaIcon '
           >
             <FaLinkedin size={24} />
           </a>
         </div>
       </nav>
       <button className='navbar-burger' onClick={handleShowlinks}>
-        <span className='burger-bar'></span>
+        <span className='navbar-bar '></span>
       </button>
     </div>
   )

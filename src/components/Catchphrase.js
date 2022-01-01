@@ -20,9 +20,9 @@ const Catchphrase = () => {
         </h2>
       </div>
       <div className='contact-button'>
-        <Link to='/'>
+        <a href='#contact'>
           <button className='btn-grad'>Me Contacter</button>
-        </Link>
+        </a>
       </div>
     </>
   )

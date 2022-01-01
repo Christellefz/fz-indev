@@ -8,6 +8,7 @@
     overflow: hidden;
     position: relative;
     top: 50px;
+    font-size:2vw ;
     
 }
 .catchphrase-first{
@@ -78,8 +79,8 @@ padding-left:10vw;
 .contact-button{
     position: relative;
     bottom:-120px;
-  display:flex;
-  justify-content: center;
-  align-items: baseline;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
 }
   

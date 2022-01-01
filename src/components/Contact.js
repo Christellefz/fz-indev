@@ -49,7 +49,7 @@ const Contact = () => {
     <div className='contactMapContainer'>
       <div className='contactContainer'>
         <form className='contact-form'>
-          <h2>Contactez-nous</h2>
+          <h2>Contactez-Moi</h2>
           <div className='form-content'>
             <input
               type='text'
@@ -95,15 +95,16 @@ const Contact = () => {
             />
           </div>
           <input
-            className='button'
+            className='btn-grad'
             type='button'
             value='Envoyer'
             onClick={handleSubmit}
           />
         </form>
-        <div className='text-pop-up-top,telMail'>
+        <div className=' telMail'>
           <p>Tel: 06 66 36 42 27</p>
-          <p>Mail: christellefz@yahoo.fr</p>
+          <p>Mail: contact@fzindev.fr</p>
+          <p>Horaire: du Mardi au Samedi de 9H00 à 17H00</p>
           <Map />
         </div>
       </div>
