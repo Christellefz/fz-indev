@@ -23,7 +23,7 @@
 
 input {
   border:none;
-  color:antiquewhite;
+  color:rgb(36, 36, 35);
   height: 30px;
   border-bottom:1px solid  black;
   margin: 20px;
@@ -33,7 +33,7 @@ input {
 }
 textarea{
   border:none;
-  color:antiquewhite;
+  color:rgb(36, 36, 35);
   height: 30px;
   border-bottom:1px solid  black;
   margin: 20px;
