@@ -1,7 +1,7 @@
 import './About.css'
 
 import { DataAbout } from './assets/DataAbout'
-import Moi from './assets/images/profil-tiny.jpg'
+import Moi from './assets/images/profil-tiny.webp'
 import React from 'react'
 
 const About = () => {

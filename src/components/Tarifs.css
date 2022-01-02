@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-image: url('./assets/images/Web.jpg');
+    background-image: url('./assets/images/Web.webp');
     background-size:100vw 100%;
     background-repeat:no-repeat;
     padding-top:50px;

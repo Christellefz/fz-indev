@@ -2,8 +2,10 @@ import './Contact.css'
 
 import React, { useState } from 'react'
 
-import Map from './Map.js'
 import emailjs from 'emailjs-com'
+import loadable from '@loadable/component'
+
+const Map = loadable(() => import('./Map.js'))
 
 const Contact = () => {
   const [name, setName] = useState('')

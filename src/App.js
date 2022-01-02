@@ -1,14 +1,16 @@
 import './App.css'
 
-import About from './components/About'
 import Catchphrase from './components/Catchphrase'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ReactGA from 'react-ga'
-import Services from './components/Services'
-import Tarifs from './components/Tarifs'
+import loadable from '@loadable/component'
 import { useEffect } from 'react'
+
+const About = loadable(() => import('./components/About'))
+const Contact = loadable(() => import('./components/Contact'))
+const Footer = loadable(() => import('./components/Footer'))
+const Services = loadable(() => import('./components/Services'))
+const Tarifs = loadable(() => import('./components/Tarifs'))
 
 const App = () => {
   useEffect(() => {

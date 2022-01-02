@@ -33,7 +33,7 @@
 }
 .profil-picture{
     height:350px;
-    width:300px;
+    width:auto;
     border-radius:150px;
     padding-top:2vh;
 }

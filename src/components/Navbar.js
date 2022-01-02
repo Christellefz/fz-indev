@@ -1,8 +1,10 @@
 import './Navbar.css'
 
-import { FaFacebookF, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebookF } from '@react-icons/all-files/fa/FaFacebookF'
+import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
+import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 
-import Logo from './assets/images/Logo.png'
+import Logo from './assets/images/Logo.webp'
 import { links } from '../data'
 import { useState } from 'react'
 

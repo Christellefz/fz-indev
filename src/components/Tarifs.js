@@ -1,7 +1,7 @@
 import './Tarifs.css'
 
 import { DataOffre } from './assets/DataOffre'
-import { GiOnTarget } from 'react-icons/gi'
+import { GiOnTarget } from '@react-icons/all-files/gi/GiOnTarget'
 import ReactGA from 'react-ga'
 
 const Tarifs = () => {

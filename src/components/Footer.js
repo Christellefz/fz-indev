@@ -3,7 +3,7 @@ import './Footer.css'
 import { useEffect, useState } from 'react'
 
 import Modal from './Modal'
-import Sphere from './assets/images/Sphere.png'
+import Sphere from './assets/images/Sphere.webp'
 
 const Footer = () => {
   const [openModal, setOpenModal] = useState(false)
