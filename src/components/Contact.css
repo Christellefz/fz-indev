@@ -83,4 +83,10 @@ textarea{
 p{
   text-align: center;
 }
+@media screen and (max-width: 365px) {
+  .telMail{
+  font-size: 1em
+  }
+}
+
 

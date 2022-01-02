@@ -7,7 +7,7 @@ const API_KEY = process.env.REACT_APP_MAP_KEY
 const Map = () => {
   const location = { lat: 43.8073, lng: 4.6437 }
   const containerStyle = {
-    width: '320px',
+    width: '250px',
     height: '400px',
     border: '2px solid  black'
   }
