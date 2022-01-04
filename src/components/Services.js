@@ -45,7 +45,7 @@ const Services = () => {
             <ul className='services-dev list'>
               <li className='list-item'>Référencement naturel</li>
               <li className='list-item'>Analyse de page de résultat</li>
-              <li className='list-item'>Google Analitics</li>
+              <li className='list-item'>Google Analytics</li>
               <li className='list-item'>Stratégie web</li>
               <li className='list-item'>Formation</li>
               <li className='list-item'>Audit</li>

@@ -39,7 +39,7 @@ const Tarifs = () => {
                 <h3>Contenu: </h3>
                 <ul key={offre.title} className='tarif-description'>
                   {offre.contenu.map(object => {
-                    return <li key={object[1]}>{object}</li>
+                    return <li key={object.length}>{object}</li>
                   })}
                 </ul>
                 <h3>Pour</h3>
@@ -55,8 +55,8 @@ const Tarifs = () => {
           })}
         </div>
         <h4>
-          Tous nos prix sont annoncés HT. La totalité du site (fichiers, code)
-          devient votre propriété une fois la totalité du règlement versé à
+          Tous les prix sont annoncés HT. La totalité du site (fichiers, code)
+          devient votre propriété une fois l&apos;entièreté du règlement versé à
           l&apos;entreprise.
         </h4>
       </section>

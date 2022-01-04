@@ -30,6 +30,7 @@
 .footer-link{
     list-style: none;
     align-self: center;
+    cursor: pointer;
 }
 .rotate-center {
 	-webkit-animation: rotate-center 4s linear infinite both;

@@ -18,7 +18,7 @@ export const DataOffre = [
     objectif: ` Une vitrine optimisée et une montée en compétence de
        l'entrepreneur`,
     contenu: [
-      ' offre basic en 5 à 8 pages +',
+      'offre basic en 5 à 8 pages +',
       'création de maquettes',
       'création du cahier des charges',
       'accompagnement pour la création de contenu optimisé',
@@ -33,7 +33,7 @@ export const DataOffre = [
     title: 'Dynamic',
     objectif: ` Site dynamic inscrit dans une stratégie digitale complète`,
     contenu: [
-      ' offre accompagnement (pages selon besoin) et administrable (base de données + interface administrateur)',
+      'offre accompagnement (pages selon besoin) et administrable (base de données + interface administrateur)',
       "construction d'une stratégie digitale complète",
       'création du cahier des charges'
     ],
