@@ -60,6 +60,7 @@ textarea{
 }
 @media screen and (max-width: 800px) {
   .contactContainer{
+    border:none;
     flex-direction:column;
     justify-content:center;
     align-items:center;

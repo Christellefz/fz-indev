@@ -11,10 +11,9 @@ const Contact = loadable(() => import('./components/Contact'))
 const Footer = loadable(() => import('./components/Footer'))
 const Services = loadable(() => import('./components/Services'))
 const Tarifs = loadable(() => import('./components/Tarifs'))
-
 const App = () => {
   useEffect(() => {
-    ReactGA.initialize('G-ZBK99E21ZC')
+    ReactGA.initialize('UA-216078235-1')
     ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
   return (

@@ -1,7 +1,7 @@
 import './Services.css'
+
 import { FaDharmachakra } from '@react-icons/all-files/fa/FaDharmachakra'
 import { FaDraftingCompass } from '@react-icons/all-files/fa/FaDraftingCompass'
-
 import { Parallax } from 'react-parallax'
 import responsive from './assets/images/responsive.webp'
 
