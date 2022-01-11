@@ -42,7 +42,7 @@ export const DataOffre = [
   },
   {
     title: 'Taux Journalier Moyen',
-    objectif: ` Chaque prestation peut-être demandées indépendamment selon vos
+    objectif: ` Chaque prestation peut-être demandée indépendamment selon vos
     besoins`,
     contenu: ['à déterminer selon vos choix'],
     pour: `Les besoins ponctuels: mise à jour, formation, évolution... `,

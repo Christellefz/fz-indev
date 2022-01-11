@@ -19,7 +19,7 @@ const Tarifs = () => {
         Avoir un site est en soit une excellente idée et vous l&apos;avez
         compris puisque vous êtes ici! Ceci-dit des questions subsistent: Quel
         outil ou plateforme utiliser pour mon site? Dois-je faire appel à un
-        développeur web? Quel budget prévoire pour mon site internet? Combien de
+        développeur web? Quel budget prévoir pour mon site internet? Combien de
         temps pour avoir mon site?
         <br />
         La réponse vous vous en doutez est: Cela dépend de vos objectifs!
