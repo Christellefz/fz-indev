@@ -12,18 +12,17 @@ export const DataAbout = [
   },
   {
     Title: 'Pourquoi choisir Fz-InDev?',
-    title1: ` Avoir un site qui ne ressemble qu'à vous!`,
-    p1: ` Votre site est 'cousu main':
-     nombre de pages, structure, fonctionalités, design, tout s'adapte en fonction 
-     de vos besoins et de votre budget`,
-    title2: `Avoir un site évolutif!`,
-    p2: ` Vous pouvez commencer avec le minimum(ou pas!): votre site 
-    pourra grandir avec les besoins de votre activité ou de votre budget`,
-    title3: `Je travaille en équipe!`,
+    title1: ` Je vous accompagne et m'adapte à vos besoins!`,
+    p1: ` Polyvalente et force de proposition, je vous apporte une réelle plus value grâce à des prestations personnalisées. `,
+    title2: `Vous restez le maître à bord`,
+    p2: ` Ma spécificité c'est ma méthodologie: nous co-construisons vos outils de communication.
+     Exit les modèles de stratégie type refourgué à tous les clients d'un même secteur. Vous donnez le cap et gardez la barre. 
+     Je suis votre bras droit digital`,
+    title3: `Mon équipage!`,
     p3: `  Graphistes, Créateurs de contenu vidéo, Photographes, 
     je mets mon réseau à votre disposition`,
     title4: `Possibilité d'échelonner les paiements! `,
-    p4: `Un site est un investissement qui peut se révéler onéreux. 
+    p4: `Votre communication en ligne est un investissement de long terme. 
     Pouvoir réaliser un paiement en plusieurs fois vous permettra de sécuriser votre trésorerie`
   },
   {
@@ -36,6 +35,6 @@ export const DataAbout = [
     il est essentiel d'établir une relation de confiance et pour ça 
     quoi de mieux que la transparence! `,
     title3: `Développement`,
-    p3: `Dans les deux sens du terme! Je développe votre site pour le développement de votre activité(visibilité, notoriété, CA ...) `
+    p3: `Dans les deux sens du terme! Je développe votre site et vos outils réseau pour le développement de votre activité(visibilité, notoriété, CA ...) `
   }
 ]

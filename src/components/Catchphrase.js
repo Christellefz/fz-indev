@@ -26,9 +26,9 @@ const Catchphrase = () => {
         </h2>
       </div>
       <div className='contact-button'>
-        <a href='#contact'>
+        <a href='#services'>
           <button className='btn-grad' onClick={Clickhandler}>
-            Me Contacter
+            En savoir plus
           </button>
         </a>
       </div>
