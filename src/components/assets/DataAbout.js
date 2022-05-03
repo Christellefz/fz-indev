@@ -16,7 +16,7 @@ export const DataAbout = [
     p1: ` Polyvalente et force de proposition, je vous apporte une réelle plus value grâce à des prestations personnalisées. `,
     title2: `Vous restez le maître à bord`,
     p2: ` Ma spécificité c'est ma méthodologie: nous co-construisons vos outils de communication.
-     Exit les modèles de stratégie type refourgué à tous les clients d'un même secteur. Vous donnez le cap et gardez la barre. 
+     Exit les modèles de stratégie type refourguées à tous les clients d'un même secteur. Vous donnez le cap et gardez la barre. 
      Je suis votre bras droit digital`,
     title3: `Mon équipage!`,
     p3: `  Graphistes, Créateurs de contenu vidéo, Photographes, 
